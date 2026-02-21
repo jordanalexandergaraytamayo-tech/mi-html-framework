@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi Proyecto con Bootstrap</title>
+<title>Tarjeta Profesional - Jordan Alexander Garay Tamayo</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -13,72 +13,93 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
   <div class="container">
-    <a class="navbar-brand fw-bold text-info" href="#">Mi Sitio Framework</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#servicios">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacto">Contacto</a>
-        </li>
-      </ul>
-    </div>
+    <a class="navbar-brand fw-bold text-info" href="#">Tarjeta Profesional</a>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="bg-dark text-white text-center py-5">
   <div class="container">
-    <h1 class="display-3 fw-bold">Bienvenido</h1>
-    <p class="lead">Proyecto moderno usando Bootstrap 5</p>
-    <a href="#servicios" class="btn btn-info btn-lg mt-3">Ver Servicios</a>
+    <h1 class="display-5 fw-bold">Jordan Alexander Garay Tamayo</h1>
+    <p class="lead">Estudiante técnico en plataformas tecnológicas y aplicaciones SG</p>
   </div>
 </section>
 
-<!-- SERVICIOS -->
-<section id="servicios" class="container py-5">
-  <div class="text-center mb-5">
-    <h2 class="fw-bold">Nuestros Servicios</h2>
-    <p class="text-muted">Componentes oficiales del framework</p>
+<!-- PERFIL -->
+<section class="container py-5 text-center">
+  <img src="img/foto.jpeg" 
+       alt="Foto de Jordan Alexander Garay Tamayo"
+       class="rounded-circle shadow mb-4"
+       width="150" height="150">
+
+  <h2 class="fw-bold">Perfil Profesional</h2>
+  <p class="text-muted">
+    Soporte técnico BBVA con experiencia en mantenimiento y desarrollo.
+  </p>
+</section>
+
+<!-- HABILIDADES -->
+<section class="bg-white py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Habilidades</h2>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="fw-bold">Aprendizaje rápido</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="fw-bold">Concentración y esfuerzo</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="fw-bold">Capaz de lograr objetivos</h5>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
+
+<!-- EXPERIENCIA -->
+<section class="container py-5">
+  <h2 class="text-center fw-bold mb-5">Formación y Experiencia</h2>
 
   <div class="row g-4">
 
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100 text-center">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Diseño Moderno</h5>
-          <p class="card-text">Uso correcto de clases y componentes Bootstrap.</p>
-          <button class="btn btn-outline-info">Más información</button>
+      <div class="card border-0 shadow-lg h-100">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Soporte Técnico BBVA - Indra</h5>
+          <p>Mantenimiento y soporte tecnológico.</p>
         </div>
       </div>
     </div>
 
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100 text-center">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Responsive</h5>
-          <p class="card-text">Adaptable a celular, tablet y computador.</p>
-          <button class="btn btn-outline-info">Más información</button>
+      <div class="card border-0 shadow-lg h-100">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Curso de Desarrollo Web</h5>
+          <p>Desarrollo de software y páginas web.</p>
         </div>
       </div>
     </div>
 
     <div class="col-md-4">
-      <div class="card border-0 shadow-lg h-100 text-center">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Componentes</h5>
-          <p class="card-text">Uso de cards, navbar, grid y botones.</p>
-          <button class="btn btn-outline-info">Más información</button>
+      <div class="card border-0 shadow-lg h-100">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Proyecto Académico</h5>
+          <p>Página web informativa usando HTML5.</p>
         </div>
       </div>
     </div>
@@ -87,17 +108,17 @@
 </section>
 
 <!-- CONTACTO -->
-<section id="contacto" class="bg-white py-5">
-  <div class="container text-center">
+<section class="bg-dark text-white py-5 text-center">
+  <div class="container">
     <h2 class="fw-bold">Contacto</h2>
-    <p class="text-muted">jordanalexandergaraytamayo@gmail.com</p>
-    <button class="btn btn-dark">Enviar mensaje</button>
+    <p>Email: cristiano9610@hotmail.com</p>
+    <p>Ciudad: Bogotá, Colombia</p>
   </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">© 2026 - Proyecto Bootstrap</p>
+<footer class="bg-black text-white text-center py-3">
+  <p class="mb-0">© 2026 - Jordan Alexander Garay Tamayo</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
